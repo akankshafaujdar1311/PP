@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: black;
+    width: 15vw;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+    
+}
+.sidebar nav a{
+    text-decoration: none;
+    color:rgb(80, 135,187 );
+    font-weight: bold;
+    text-shadow: whitesmoke;
+}
+.main{
+    background-image: url("https://www.light-bulb.in/content/images/2021/10/wp2337008-blockchain-wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90vw;
+    color:Black;
+
+    /*background-image: url("https://www.lupin.com/wp-content/uploads/2020/05/p-item-6.jpg");*/
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    width: 80vw;
+    height: 58vh;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+}
+.devinfo{
+    font-style: oblique;
+    text-align: end;
+    display: flex;
+    flex-direction:column;
+    justify-content:calc(10mm);
+    
+}
+.hello{
+    font-size: 85px;
+    font-weight: bold;
+}
+.name{
+    font-size: 75px;
+    font-weight: bold;
+}
+.about{
+    font-size: 60px;
+}
+.moreabout{
+    font-size: 35px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0 3px;
+    background-color: rgb(80, 135, 187);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: rgb(80, 135, 187);
+}
+.contactform{
+    padding-top: 144px;
+    padding: 0 34px;
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+.contactform h1{
+    font-weight: bold;
+    text-align: center;
+    color:rgb(30, 102, 170);
+    background-color:black;
+    padding: 3px;
+    border-radius: 10px;
+}
+.contactform form div{
+    padding-left: 300px;
+     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactform form div input{
+    width: 30vw;
+    margin: 10px;
+    padding: 9px;
+    border-radius: 10px;
+}
+#btnss{
+    padding-left: 520px;
+    padding-right: 520px;
+}
+#emailHelp{
+    font-size: 11px;
+    color:aqua;
+    margin:0 5px;
+    padding-left: 10px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 30px;
+    margin: 3px 0;
+}
+.studies{
+    font-size: 45px;
+    text-align: center;
+    
+}
+.studies h1{
+    background-color: grey;
+}
+@media (max-width: 960px){
+     
+   /* *{
+        background-color: cornflowerblue;
+    }
+    .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }*/
+
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.cross{
+    margin-left: 155px;
+}
+.sidebarGo{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }
+.courses{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+.courses h1{
+    font-weight: bold;
+    font-size: 52px;
+    background-color: black;
+    color: rgb(30, 1, 158);
+    text-align: center;
+}
+.btns{
+    padding: 9px 14px;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0 3px;
+    background-color: rgb(80,135,187);
+    cursor: pointer;
+}
+.btns:hover{
+    background-color: black;
+    color: rgb(80,135,187);
+}
+.social-menu ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.social-menu ul li .fa{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: #000;
+}
+.social-menu ul li.fa:hover{
+    color: #fff;
+}
+.social-menu ul li a{
+    align-items: centre;
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 40pxpx;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: 0.6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+.social-menu ul li a:hover{
+    transform: translate(0,-15px);
+}
+.social-menu ul li:nth-child a:hover{
+    background-color: #3b5999;
+}
+#box1 {
+    padding-top: 86px;
+    padding-left: 50px;
+}
+#box2 {
+    padding-top: 86px;
+    padding-left: 170px;
+}
+#box3 {
+    padding-left: 200px;
+    padding-top: 86px;
+}
+.box{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+#box4{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 10%;
+}
+#box5{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 10%;
+}
+#box6{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left:150px;
+    padding-right: 150px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 10%;
+}
